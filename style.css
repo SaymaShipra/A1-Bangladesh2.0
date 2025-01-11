@@ -385,9 +385,9 @@ span {
 .donation-options {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
-.donation-option {
+/* .donation-option {
   background-color: #c6e4d6;
   border: 2px solid #ddd;
   border-radius: 8px;
@@ -405,6 +405,16 @@ span {
 }
 .donation-option:hover {
   background-color: rgb(116, 179, 150);
+} */
+
+.donation-option .common-btn {
+  padding: 40px 50px;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+}
+.donation-option .common-btn:hover {
+  background-color: rgba(198, 228, 214, 1);
+  color: white;
 }
 .custom-amount {
   margin-bottom: 20px;
