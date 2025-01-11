@@ -329,13 +329,17 @@ span {
 .article img {
   width: 400px;
   height: 300px;
-  margin-right: 20px;
+  margin-right: 40px;
   border-radius: 24px;
 }
 .article.reverse img {
-  margin-right: 0;
+  margin-right: 0px;
   order: 2;
 }
+.news-img {
+  margin-left: 300px;
+}
+
 .article-content {
   max-width: 600px;
 }
@@ -385,27 +389,9 @@ span {
 .donation-options {
   display: flex;
   justify-content: space-around;
+
   margin-bottom: 50px;
 }
-/* .donation-option {
-  background-color: #c6e4d6;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  padding: 20px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s, border-color 0.3s;
-}
-.donation-option input {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  font-size: 1em;
-  text-align: center;
-  background-color: #c6e4d6;
-}
-.donation-option:hover {
-  background-color: rgb(116, 179, 150);
-} */
 
 .donation-option .common-btn {
   padding: 40px 50px;
@@ -514,6 +500,6 @@ footer img {
 }
 
 .footer-img {
-  margin-left: 440px;
+  margin-left: 575px;
   padding: 5px;
 }
