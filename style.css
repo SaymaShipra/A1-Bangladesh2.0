@@ -55,14 +55,19 @@ nav .btn-primary:hover {
   justify-content: space-between;
   align-items: center;
   background-color: #c6e4d6;
-  border-radius: 24px;
+  /* border-radius: 24px;
   background-repeat: no-repeat;
 
-  margin: 20px;
+  margin: 20px; */
+
+  margin: 30px 140px;
+  border-radius: 24px;
+  box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+  padding: 40px 2px;
 }
 
 .banner-content {
-  padding: 110px 58px;
+  padding: 60px 58px;
 }
 .banner-img {
   width: 475px;
@@ -479,3 +484,30 @@ span {
 }
 
 /* footer */
+
+footer {
+  border-radius: 16px;
+  box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
+  padding: 60px 30px;
+  margin: 80px;
+}
+
+footer h1 {
+  text-align: center;
+  font-size: 32 px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+  padding-bottom: 20px;
+}
+footer hr {
+  margin: 30px 5px;
+}
+footer img {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.footer-img {
+  margin-left: 440px;
+  padding: 5px;
+}
