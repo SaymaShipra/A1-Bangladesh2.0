@@ -360,3 +360,122 @@ span {
   font-size: 16px;
   margin-bottom: 20px;
 }
+
+/* Donate section */
+.donate {
+  text-align: center;
+
+  margin: 70px;
+}
+
+.donate h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 24px;
+}
+.donate p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+
+.donation-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.donation-option {
+  background-color: #c6e4d6;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.donation-option input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 1em;
+  text-align: center;
+  background-color: #c6e4d6;
+}
+.donation-option:hover {
+  background-color: rgb(116, 179, 150);
+}
+.custom-amount {
+  margin-bottom: 20px;
+}
+.custom-amount input {
+  width: 80%;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 2px solid #c6e4d6;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.custom-amount input:focus {
+  box-shadow: 0 0 0 0.4px rgba(198, 228, 214, 1);
+  color: #8cabef;
+}
+
+/* newsletter section */
+.newsletter {
+  margin: 80px;
+}
+.newsletter-head {
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 24px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(14, 14, 14, 0.7);
+}
+.newsletter-head h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+  padding-top: 60px;
+}
+.newsletter-head p {
+  margin: 20px 0px;
+
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+.newsletter-head input[type="email"] {
+  width: 40%;
+  padding: 18px 40px;
+  margin: 10px 0;
+  border: 1px solid rgba(14, 14, 14, 0.3);
+  border-radius: 10px 0px 0px 10px;
+}
+.newsletter-head button {
+  padding: 18px 34px;
+  background-color: #198754;
+  color: rgba(14, 14, 14, 0.3);
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  margin-left: -5px;
+}
+.newsletter-head button:hover {
+  background-color: rgba(0, 106, 80, 1);
+
+  font-size: 15px;
+}
+
+.newsletter-head.note {
+  margin-top: 24px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* footer */
