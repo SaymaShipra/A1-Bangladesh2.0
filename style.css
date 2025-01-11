@@ -55,15 +55,10 @@ nav .btn-primary:hover {
   justify-content: space-between;
   align-items: center;
   background-color: #c6e4d6;
-  /* border-radius: 24px;
+  border-radius: 24px;
   background-repeat: no-repeat;
 
-  margin: 20px; */
-
-  margin: 30px 140px;
-  border-radius: 24px;
-  box-shadow: 0px 6px 50px 0px rgba(14, 14, 14, 0.15);
-  padding: 40px 2px;
+  margin: 20px 75px;
 }
 
 .banner-content {
@@ -364,6 +359,7 @@ span {
 .article-text {
   font-size: 16px;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 /* Donate section */
@@ -427,7 +423,7 @@ span {
 
 .custom-amount input:focus {
   box-shadow: 0 0 0 0.4px rgba(198, 228, 214, 1);
-  color: #8cabef;
+  color: rgba(0, 106, 80, 1);
 }
 
 /* newsletter section */
